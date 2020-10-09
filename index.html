@@ -1,9 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head>
-	
-	</head>
-	<body>
-		
-	</body>
+  <title>JS Functions</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <header>
+    <h1>Cool JavaScript Functions</h1>
+  </header>  
+  <body>   
+    <div>
+      <button onclick="addRandomQuote()">Click for Inspiration</button>
+      <h3 id="greeting-container"></h3>
+    </div>
+      
+    <form>
+      <h2>Input Form</h2>
+      <section>
+        <input class="forms" type="text" placeholder="First Name" required>
+        <input class="forms" type="text" placeholder="Last Name" required>
+        <input class="forms" type="text" placeholder="Favorite course" required>
+      </section>
+        
+      <input id="Freshman" type="radio">
+      <label class="checkboxes">Freshman</label>
+      <input id="Sophomore" type="radio">
+      <label class="checkboxes">Sophomore</label>
+      <input id="Junior" type="radio">  
+      <label class="checkboxes">Junior</label>
+      <input id="Senior" type="radio">  
+      <label class="checkboxes">Senior</label>
+      <br>
+      <br>
+      <input id="male" type="checkbox" name="gender" value="male">
+      <label class="checkboxes">Male</label>
+      <input id="female" type="checkbox" name="gender" value="female">
+      <label class="checkboxes">Female</label>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+    
+    <h2>Progress Bars</h2>
+    <h4>This is how far we are in the semester:</h4>
+
+    <div id="Bar" class="bar-theme" style="width:1%">0</div>
+    <br>
+    <button onclick="move()">Click Me</button> 
+  </body>
 </html>

@@ -1,0 +1,59 @@
+body {
+    font-size: 15px;
+    margin: auto;
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header {
+  background-color: #0752b5;
+  margin: 0px;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 40px;
+}
+
+h3 { 
+  font-family: cursive;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+button {
+  background-color: #0752b5;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.forms {
+  margin-bottom: 30px;
+  display: block;
+}
+
+.checkboxes {
+  margin-bottom: 10px;
+}
+
+.bar-theme {
+    color: #fff;
+    background-color: #0752b5;
+    padding: 8px 16px;
+}
