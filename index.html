@@ -9,12 +9,12 @@
   <header>
     <h1>Cool JavaScript Functions</h1>
   </header>  
-  <body>   
+  <body>
     <div>
       <button onclick="addRandomQuote()">Click for Inspiration</button>
       <h3 id="greeting-container"></h3>
     </div>
-      
+    <hr>
     <form>
       <h2>Input Form</h2>
       <section>
@@ -22,15 +22,16 @@
         <input class="forms" type="text" placeholder="Last Name" required>
         <input class="forms" type="text" placeholder="Favorite course" required>
       </section>
-        
-      <input id="Freshman" type="radio">
-      <label class="checkboxes">Freshman</label>
-      <input id="Sophomore" type="radio">
-      <label class="checkboxes">Sophomore</label>
-      <input id="Junior" type="radio">  
-      <label class="checkboxes">Junior</label>
-      <input id="Senior" type="radio">  
-      <label class="checkboxes">Senior</label>
+      <section>
+        <input id="Freshman" type="radio">
+        <label class="checkboxes">Freshman</label>
+        <input id="Sophomore" type="radio">
+          <label class="checkboxes">Sophomore</label>
+        <input id="Junior" type="radio">  
+        <label class="checkboxes">Junior</label>
+        <input id="Senior" type="radio">  
+        <label class="checkboxes">Senior</label>
+      </section>
       <br>
       <br>
       <input id="male" type="checkbox" name="gender" value="male">
@@ -39,13 +40,18 @@
       <label class="checkboxes">Female</label>
       <br>
       <button type="submit">Submit</button>
-    </form>
-    
+    </form> 
+    <hr>
     <h2>Progress Bars</h2>
     <h4>This is how far we are in the semester:</h4>
-
     <div id="Bar" class="bar-theme" style="width:1%">0</div>
     <br>
-    <button onclick="move()">Click Me</button> 
+    <button onclick="move()">Click Me</button>
+    <hr>
+    <div>
+      <h2 id="joke">Why aren't koalas actual bears?</h2>
+      <button type="button" onclick='document.getElementById("joke").innerHTML = 
+          "They do not meet the koalafications :)"'>Click for Punchline</button>
+    </div>
   </body>
 </html>
