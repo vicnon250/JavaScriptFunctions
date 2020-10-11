@@ -38,3 +38,9 @@ function move() {
     }
   }
 }
+function changeFont(){
+	var fontType = [ "Arial", "Verdana", "Helvetica"];
+var num;
+num=Math.floor(Math.random()*3);
+$('#fonts').css("font-family",fontType[num]).text("This is "+fontType[num]+". Beautiful!");
+}
