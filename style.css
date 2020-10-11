@@ -5,7 +5,9 @@ body {
     margin-left: 100px;
     margin-right: 100px;
 }
-
+#fonts{
+	cursor:pointer;
+}
 header {
   background-color: #0752b5;
   margin: 0px;
